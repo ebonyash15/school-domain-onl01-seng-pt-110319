@@ -21,6 +21,6 @@ class School
       @@roster[grade]
   end
   def sort
-    @@roster.values.sort
+    @@roster.flatten.sort
   end
 end
