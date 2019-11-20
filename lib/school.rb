@@ -12,6 +12,5 @@ class School
   def add_student(name, grade)
       ROSTER[grade]=[]
       ROSTER[grade]<<name
-    end
   end
 end
