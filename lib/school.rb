@@ -10,7 +10,6 @@ class School
     ROSTER
   end
   def add_student(name, grade)
-      ROSTER[grade]=[]
       ROSTER[grade] << name
     return ROSTER
   end
