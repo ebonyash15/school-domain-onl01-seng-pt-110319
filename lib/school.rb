@@ -15,6 +15,7 @@ class School
     else
       ROSTER[grade]=[]
       ROSTER[grade] << name
+    end
     return ROSTER
   end
 end
