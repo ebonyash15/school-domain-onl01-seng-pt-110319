@@ -18,9 +18,7 @@ class School
     end
   end
   def grade=(grade)
-      @grade=grade
+      @grade=@@roster[grade]
   end
-  def grade
-    @@roster[grade]
-  end
+attr_reader :grade
 end
