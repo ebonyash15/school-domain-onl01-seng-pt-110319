@@ -16,5 +16,6 @@ class School
     else
       @roster[grade]<<name
     end
+    @roster
   end
 end
