@@ -17,8 +17,7 @@ class School
       @@roster[grade] << name
     end
   end
-  def grade=(grade)
-      @grade=@@roster[grade]
+  def grade(grade)
+      @@roster[grade]
   end
-attr_reader :grade
 end
