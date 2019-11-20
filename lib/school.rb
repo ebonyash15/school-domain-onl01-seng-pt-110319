@@ -4,18 +4,17 @@ class School
     @name=name
   end
   def roster=(roster)
-    ROSTER << roster
+    @roster << roster
   end
   def roster
     ROSTER
   end
   def add_student(name, grade)
-    @roster={}
-    if !@roster.keys.include?(grade)
-      @roster[grade]=[name]
+    ROSTER={}
+    if !ROSTER.keys.include?(grade)
+      ROSTER[grade]=[name]
     else
-      @roster[grade]<<name
+      ROSTER[grade]<<name
     end
-    @roster
   end
 end
