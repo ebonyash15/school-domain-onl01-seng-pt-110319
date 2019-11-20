@@ -4,10 +4,10 @@ class School
     @name=name
   end
   def roster=(roster)
-    @roster << roster
+    @roster=roster
   end
   def roster
-    ROSTER
+    @roster
   end
   def add_student(name, grade)
     ROSTER={}
