@@ -11,7 +11,7 @@ class School
   end
   def add_student(name, grade)
       ROSTER[grade]=[]
-      ROSTER[grade]<<name
+      ROSTER[grade] << name
     ROSTER
   end
 end
