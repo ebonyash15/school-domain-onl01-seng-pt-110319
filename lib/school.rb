@@ -22,8 +22,9 @@ class School
   end
   def sort
     sorted_roster={}
-    sorted_roster.keys << @@roster.keys
-    sorted_roster.values << @@roster.values.sort
+    @@roster.each do |key, value|
+      sorted_roster[key] = value
+    end
     sorted_roster
   end
 end
