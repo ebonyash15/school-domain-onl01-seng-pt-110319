@@ -21,6 +21,7 @@ class School
       @@roster[grade]
   end
   def sort
+    sorted_roster={}
     sorted_roster.keys=@@roster.keys
     sorted_roster.values=@@roster.values.sort
     sorted_roster
